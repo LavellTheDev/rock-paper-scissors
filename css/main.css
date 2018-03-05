@@ -1,0 +1,63 @@
+body {
+  font-family: monospace;
+  font-size: 24px;
+  text-align: center;
+  background: ;
+  color: black;
+  margin: 3em;
+  background-image: url("https://images4.alphacoders.com/216/216948.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: pink;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+button:active {
+  background: pink;
+}
+h3{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  color: lime;
+}
+p{
+  border: 3px solid pink;
+  background-color: RGBa(255,255,255,.55);
+}
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 3px solid pink;
+  background-color: RGBa(255,255,255,.55);
+}
+.scoreboard h2 {
+  border-bottom: 1px solid pink;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}

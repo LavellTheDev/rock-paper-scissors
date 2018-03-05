@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Parchment, Stone, or Blade?</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<h1>Rock, Paper, or Scissors?</h1>
+<h3> Spock & Lizard Edition</h3>
+<p>A steam-powered unicorn has challenged you to a game of <strong>Ro-Sham-Bo</strong>(じゃん拳 janken). <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>. Use your
+super rainbow powers to let the <strong>night begin to shine.</strong></p>
+
+<div class="scoreboard">
+  <h2>Scoreboard</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td id="humanScore">0</td>
+        <td id="computerScore">0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>You</th>
+        <th>Bot</th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<h2>Choose Wisely</h2>
+
+<button id="rock">Rock</button>
+
+<button id="paper">Paper</button>
+
+<button id="scissors">Scissors</button>
+
+<button id="spock">Spock</button>
+
+<button id="lizard">Lizard</button>
+
+<div id="status"></div>
+
+<audio controls loop autoplay hidden>
+ <source src="Go.mp3" type="audio/ogg">
+ <source src="Go.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+</body>
+
+<!-- <script src="//ajax.googleeapis.com/ajax" -->
+<script src="js/main.js"></script>
+</html>
