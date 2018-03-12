@@ -1,7 +1,8 @@
 # Rock Paper Scissors, Spock Lizard?
 Rock Paper Scissors with a very annoying 80's twist.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:**
+Coming Soon
 
 ![alt tag](https://i.imgur.com/8DX6EGy.png)
 
@@ -25,13 +26,9 @@ Due to the fast turn around of this project I was not able to add all the functi
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+What I really took away from this was how to use Math.random, Math.floor, Math.ceil, and Math.round. Beyond that, the hands on practice with boolean made understand how if/else really works.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Coming Soon:**
