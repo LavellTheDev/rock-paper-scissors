@@ -3,7 +3,7 @@ Rock Paper Scissors with a very annoying 80's twist.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](https://imgur.com/8DX6EGy)
+![alt tag](https://i.imgur.com/8DX6EGy.png)
 
 ## How It's Made:
 
