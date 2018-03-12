@@ -1,26 +1,27 @@
-# My Awesome Project
-The goal was to create the most annoying rock paper scissors game possible. I wanted to provide it with a retro 80's look, sound and feel.
+# Rock Paper Scissors, Spock Lizard?
+Rock Paper Scissors with a very annoying 80's twist.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt tag](http://placecorgi.com/1200/650)
+![alt tag](https://imgur.com/8DX6EGy)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Framework of choice
 
-HTML:
-The setup for the HTML is pretty simple. I decided to go with camelCase since it is the method I feel most comfortable working in. Within the body I created a brief description with the purpose of being over the top. I used h1 for Rock, Paper & Scissors because to me that is the main point of this game. An H3 for Spock and Lizard due to the face that those are extra features. Added tables to hold the important stuff, used a few divs and used audio files within the HTML.
-
-CSS:
-Contains background image, a few borders and semi transparent backdrop colors. This was due to how hard it was for the typeface to be read.
-
-JavaScript: 
+Under The Hood:
+This simple game is using HTML, CSS, and Vanilla JavaScript. The HTML and CSS are strictly cosmetic. The most important components from the framework are the buttons and the table that contains the scoreboard. Within the JavaScript that is where all the magic happens. Using the methods, Math.random & Math.round we are able to randomly generate a rational number between 0 & 1. We then split the percentage of the rational number between all arguments. By using the event listener .onclick we are able to then use the functions that we created to allow the user the ability to click each button and receive a response. With each response the bot randomly chooses a argument and the results are compared with another boolean.
 
 ## Optimizations
-*(optional)*
+Due to the fast turn around of this project I was not able to add all the functionality that I would hope for. The following is things I would add or change.
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+1) Inability to exit game until you beat it.
+  a) The purpose of this game was to be annoying. I would have added event listeners that activated whenever the user moused up towards the address bar.
+
+2) Unlocking part 2 of game, Spock & Lizard.
+  a) After getting between 5-10 wins in a row. The Spock and lizard would be added and you would have to get another 5 wins to be able to unlock the ability to exit the game. This would be handled with a toggle class and conditionals.  
+
+
 
 ## Lessons Learned:
 
